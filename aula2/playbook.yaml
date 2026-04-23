@@ -1,0 +1,9 @@
+
+- name: Playbook para gerenciar arquivos locais
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Criar um arquivo de teste
+      file:
+        path: /ansible/arquivo_de_teste.txt
+        state: touch

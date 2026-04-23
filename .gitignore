@@ -1,2 +1,6 @@
 .env
 .terraform
+
+aula1/terraform/.terraform
+
+**.terraform
